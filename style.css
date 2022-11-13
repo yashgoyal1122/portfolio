@@ -1,0 +1,166 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(to bottom right, #15133C, #E26868);
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 2%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5% 2%;
+}
+
+li{
+    list-style: none;
+    margin: 0rem 3rem;
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+    color: #fbcb0a;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover{
+    color: white;
+}
+
+button{
+    height: 3.5rem;
+    width: 8rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 100%;
+    transition: 00.2s ease-in-out;
+}
+
+button:hover{
+    background-color: #fbcb0a;
+    color: black;
+    cursor: pointer;
+}
+
+.profile,
+.sch,
+.clg {
+   height: 10rem;
+   width: 10rem;
+   border-radius: 10rem;
+      
+}
+
+section{
+    border-bottom: 0.2px solid white;
+}
+
+#about{
+    margin: 2% 0%;
+    padding: 0% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h3{
+    color: white;
+}
+
+#info{
+    margin: 2% 0%;
+    padding: 0% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px; 
+}
+
+h1{
+    color: aquamarine;
+}
+
+.school{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.college{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects{
+    margin: 2% 0%;
+    padding: 0% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-app,
+.word-game,
+.start-up,
+.cloning{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: #FFD24C;
+}
+
+.work{
+    height: 20rem;
+    width: 20rem;
+    margin: 2rem;
+}
+
+.img{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    
+}
+
+.skillset{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.skillset > li{
+    font-size: 30px;
+}
+
+
+
+
+
+
